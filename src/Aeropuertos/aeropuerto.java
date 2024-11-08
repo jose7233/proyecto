@@ -3,6 +3,7 @@ package Aeropuertos;
 
 public class aeropuerto {
     private String[]  dineropublico = {"100.000", "100"};
+
     private String[] dineroprivado = {"200.000"};
 private String[] privado = {"pocoyo", "te.mascafe", "menos robos"};
 private String[] publico = {"1.000.000.000", "2.000.000.000" , " 1.200.000.000"};

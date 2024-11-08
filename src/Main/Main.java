@@ -185,6 +185,7 @@ public class Main {
                     System.out.println("1. Sí");
                     System.out.println("2. No");
                     int continuar = sc.nextInt();
+
                     seguirComprando = (continuar == 1);
 
                 } while (seguirComprando);
