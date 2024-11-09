@@ -26,39 +26,40 @@ private String[] publico = {"1.000.000.000", "2.000.000.000" , " 1.200.000.000"}
 
     private String[][][] vuelosPublicos = {
             {
-                    { "Bogotá - Medellín", "Bogotá - Cali", "Bogotá - Barranquilla" },
-                    { "Bogotá - Cartagena", "Bogotá - Bucaramanga", "Bogotá - Pereira" },
-                    { "Bogotá - Montería", "Bogotá - San Andrés", "Bogotá - Villavicencio" }
+                    { "ID 223 Bogotá - Medellín", "ID 674 Bogotá - Cali", "ID 591 Bogotá - Barranquilla" },
+                    { "ID 983 Bogotá - Cartagena", "ID 457 Bogotá - Bucaramanga", "ID 328 Bogotá - Pereira" },
+                    { "ID 114 Bogotá - Montería", "ID 752 Bogotá - San Andrés", "ID 485 Bogotá - Villavicencio" }
             },
             {
-                    { "Medellín - Bogotá", "Medellín - Cali", "Medellín - Barranquilla" },
-                    { "Medellín - Cartagena", "Medellín - Bucaramanga", "Medellín - Pereira" },
-                    { "Medellín - Montería", "Medellín - San Andrés", "Medellín - Villavicencio" }
+                    { "ID 321 Medellín - Bogotá", "ID 264 Medellín - Cali", "ID 875 Medellín - Barranquilla" },
+                    { "ID 699 Medellín - Cartagena", "ID 553 Medellín - Bucaramanga", "ID 402 Medellín - Pereira" },
+                    { "ID 168 Medellín - Montería", "ID 733 Medellín - San Andrés", "ID 284 Medellín - Villavicencio" }
             },
             {
-                    { "Cali - Bogotá", "Cali - Medellín", "Cali - Barranquilla" },
-                    { "Cali - Cartagena", "Cali - Bucaramanga", "Cali - Pereira" },
-                    { "Cali - Montería", "Cali - San Andrés", "Cali - Villavicencio" }
+                    { "ID 495 Cali - Bogotá", "ID 677 Cali - Medellín", "ID 833 Cali - Barranquilla" },
+                    { "ID 501 Cali - Cartagena", "ID 912 Cali - Bucaramanga", "ID 785 Cali - Pereira" },
+                    { "ID 249 Cali - Montería", "ID 370 Cali - San Andrés", "ID 654 Cali - Villavicencio" }
             }
     };
 
     private String[][][] vuelosPrivados = {
             {
-                    { "Guaymaral - Medellín", "Guaymaral - Cali", "Guaymaral - Barranquilla" },
-                    { "Guaymaral - Cartagena", "Guaymaral - Bucaramanga", "Guaymaral - Pereira" },
-                    { "Guaymaral - Montería", "Guaymaral - San Andrés", "Guaymaral - Villavicencio" }
+                    { "ID 128 Guaymaral - Medellín", "ID 345 Guaymaral - Cali", "ID 293 Guaymaral - Barranquilla" },
+                    { "ID 432 Guaymaral - Cartagena", "ID 901 Guaymaral - Bucaramanga", "ID 572 Guaymaral - Pereira" },
+                    { "ID 163 Guaymaral - Montería", "ID 284 Guaymaral - San Andrés", "ID 745 Guaymaral - Villavicencio" }
             },
             {
-                    { "Vanguardia - Bogotá", "Vanguardia - Cali", "Vanguardia - Barranquilla" },
-                    { "Vanguardia - Cartagena", "Vanguardia - Bucaramanga", "Vanguardia - Pereira" },
-                    { "Vanguardia - Montería", "Vanguardia - San Andrés", "Vanguardia - Villavicencio" }
+                    { "ID 456 Vanguardia - Bogotá", "ID 631 Vanguardia - Cali", "ID 710 Vanguardia - Barranquilla" },
+                    { "ID 843 Vanguardia - Cartagena", "ID 953 Vanguardia - Bucaramanga", "ID 278 Vanguardia - Pereira" },
+                    { "ID 391 Vanguardia - Montería", "ID 674 Vanguardia - San Andrés", "ID 542 Vanguardia - Villavicencio" }
             },
             {
-                    { "Palonegro - Bogotá", "Palonegro - Medellín", "Palonegro - Barranquilla" },
-                    { "Palonegro - Cartagena", "Palonegro - Bucaramanga", "Palonegro - Pereira" },
-                    { "Palonegro - Montería", "Palonegro - San Andrés", "Palonegro - Villavicencio" }
+                    { "ID 750 Palonegro - Bogotá", "ID 923 Palonegro - Medellín", "ID 635 Palonegro - Barranquilla" },
+                    { "ID 413 Palonegro - Cartagena", "ID 286 Palonegro - Bucaramanga", "ID 597 Palonegro - Pereira" },
+                    { "ID 301 Palonegro - Montería", "ID 734 Palonegro - San Andrés", "ID 462 Palonegro - Villavicencio" }
             }
     };
+
 
     String[][][][] asientosPublicos = {
             {

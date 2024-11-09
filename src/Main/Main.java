@@ -88,10 +88,10 @@ public class Main {
                                 System.out.println(" ");
                                 System.out.println("el vuelo tiene un valor de: " + dineroseleccionado);
 
-                                System.out.println("Digite un asiento ejemplo 1A o 2A");
+                                System.out.println("Digite un asiento ejemplo 1A , 2A");
                                 System.out.println(" ");
                                 System.out.println("Asientos disponibles:");
-                                System.out.println(" ");
+
                                 String[][][][] asientos = isPublic ? Aeropuerto.getAsientosPublicos() : Aeropuerto.getAsientosPrivados();
                                 for (int i = 0; i < asientos[companiaIndex][vueloIndex][aeropuertoIndex].length; i++) {
                                     System.out.print(asientos[companiaIndex][vueloIndex][aeropuertoIndex][i] + " ");
@@ -99,7 +99,7 @@ public class Main {
 
                                 System.out.println(" ");
 
-                                System.out.println("Digita el asiento deseado: ");
+                                System.out.print("Digita el asiento deseado: ");
                                 asientoSeleccionado = sc.next();
 
                                 for (int i = 0; i < asientos[companiaIndex][vueloIndex][aeropuertoIndex].length; i++) {
@@ -115,10 +115,10 @@ public class Main {
                                 System.out.println(" ");
                                 System.out.println("el vuelo tiene un valor de: " + dineroseleccionado2);
 
-                                System.out.println("Digite un asiento ejemplo 1A o 2A");
+                                System.out.println("Digite un asiento ejemplo 1A , 2A");
                                 System.out.println(" ");
                                 System.out.println("Asientos disponibles:");
-                                System.out.println(" ");
+
                                 String[][][][] asientos2 = isPublic ? Aeropuerto.getAsientosPublicos2() : Aeropuerto.getAsientosPrivados2();
                                 for (int i = 0; i < asientos2[companiaIndex][vueloIndex][aeropuertoIndex - 1].length; i++) {
                                     System.out.print(asientos2[companiaIndex][vueloIndex][aeropuertoIndex - 1][i] + " ");
@@ -140,10 +140,9 @@ public class Main {
                                 System.out.println(" ");
                                 System.out.println("el vuelo tiene un valor de: " + dineroseleccionado3);
 
-                                System.out.println("Digite un asiento ejemplo 1A o 2A");
+                                System.out.println("Digite un asiento ejemplo 1A , 2A");
                                 System.out.println(" ");
                                 System.out.println("Asientos disponibles:");
-                                System.out.println(" ");
 
                                 String[][][][] asientos3 = isPublic ? Aeropuerto.getAsientosPublicos3() : Aeropuerto.getAsientosPrivados3();
                                 for (int i = 0; i < asientos3[companiaIndex][vueloIndex][aeropuertoIndex - 2].length; i++) {
